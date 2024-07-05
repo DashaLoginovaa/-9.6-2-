@@ -80,11 +80,5 @@ namespace Практ9._6_2_
             NumberEnteredEvent?.Invoke(number);
         }
     }
-    public class MyException : Exception 
-    {
-        public MyException(string message): base (message) 
-        {
-
-        }
-    }
+   
 }
